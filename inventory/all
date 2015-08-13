@@ -1,0 +1,9 @@
+[webservers]
+ default
+
+[appservers]
+ 127.0.0.1
+
+[all]
+ webservers
+ appservers

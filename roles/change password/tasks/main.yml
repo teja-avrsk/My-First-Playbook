@@ -1,0 +1,5 @@
+---
+  - name: create passwd
+    become: yes
+    user: name={{item}} password=SHYAMdevika1
+    with_items: ostack_users

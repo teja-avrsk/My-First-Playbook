@@ -1,0 +1,7 @@
+---
+- hosts: webservers
+  become: yes
+  roles:
+   - install httpd 
+   - create user 
+   - change password
