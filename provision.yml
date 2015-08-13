@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: webservers
   become: yes
   roles:
    - install httpd 
