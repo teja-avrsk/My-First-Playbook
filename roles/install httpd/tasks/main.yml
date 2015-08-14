@@ -1,6 +1,6 @@
 ---
 - name: install a httpd service
-  yum: name=httpd state=installed
+  apt-get: name=httpd state=installed
 
 - name: start the ntp server
   service: name=httpd state=started 
