@@ -4,3 +4,4 @@
   roles:
    - create user 
    - change password
+   - install httpd
